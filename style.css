@@ -1,0 +1,79 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #6563FF;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 25px;
+  padding-top: 2rem;
+  border-radius: 10px;
+  background: #F8F8F8;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  font-family: system-ui;
+  }
+
+label{
+  display: flex;
+  float: left;
+  width: 250px;
+  color: black;
+  }
+
+.input-container {
+  margin-bottom: 1rem;
+  font-size: large;
+  font-weight: bold;
+  }
+
+button {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  margin-top: 20px;
+  margin-left: 270px; 
+  display: inline-block;
+  float: left;
+  clear: left;
+  }
+
+.btn-color {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color:hover {
+  cursor: pointer;
+}
+
+.btn-color:hover {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
+}
